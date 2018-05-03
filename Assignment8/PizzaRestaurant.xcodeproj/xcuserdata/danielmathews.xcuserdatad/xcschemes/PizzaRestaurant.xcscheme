@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,70 +14,65 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF45FF86209BB0B10090C39C"
-               BuildableName = "Assignment8"
-               BlueprintName = "Assignment8"
-               ReferencedContainer = "container:Assignment8.xcodeproj">
+               BlueprintIdentifier = "6001EC7C197B4EC300F97011"
+               BuildableName = "PizzaRestaurant"
+               BlueprintName = "PizzaRestaurant"
+               ReferencedContainer = "container:PizzaRestaurant.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
       <Testables>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF45FF86209BB0B10090C39C"
-            BuildableName = "Assignment8"
-            BlueprintName = "Assignment8"
-            ReferencedContainer = "container:Assignment8.xcodeproj">
+            BlueprintIdentifier = "6001EC7C197B4EC300F97011"
+            BuildableName = "PizzaRestaurant"
+            BlueprintName = "PizzaRestaurant"
+            ReferencedContainer = "container:PizzaRestaurant.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF45FF86209BB0B10090C39C"
-            BuildableName = "Assignment8"
-            BlueprintName = "Assignment8"
-            ReferencedContainer = "container:Assignment8.xcodeproj">
+            BlueprintIdentifier = "6001EC7C197B4EC300F97011"
+            BuildableName = "PizzaRestaurant"
+            BlueprintName = "PizzaRestaurant"
+            ReferencedContainer = "container:PizzaRestaurant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF45FF86209BB0B10090C39C"
-            BuildableName = "Assignment8"
-            BlueprintName = "Assignment8"
-            ReferencedContainer = "container:Assignment8.xcodeproj">
+            BlueprintIdentifier = "6001EC7C197B4EC300F97011"
+            BuildableName = "PizzaRestaurant"
+            BlueprintName = "PizzaRestaurant"
+            ReferencedContainer = "container:PizzaRestaurant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

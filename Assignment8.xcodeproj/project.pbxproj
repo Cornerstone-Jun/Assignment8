@@ -8,7 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BF45FF8B209BB0B10090C39C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FF8A209BB0B10090C39C /* main.m */; };
+		BF45FF93209BB0C80090C39C /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FF92209BB0C80090C39C /* Kitchen.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF45FF99209BB0D70090C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF45FF95209BB0D70090C39C /* PizzaRestaurant.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6001EC7D197B4EC300F97011;
+			remoteInfo = PizzaRestaurant;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BF45FF85209BB0B10090C39C /* CopyFiles */ = {
@@ -25,6 +36,10 @@
 /* Begin PBXFileReference section */
 		BF45FF87209BB0B10090C39C /* Assignment8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment8; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF45FF8A209BB0B10090C39C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF45FF91209BB0C80090C39C /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		BF45FF92209BB0C80090C39C /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		BF45FF94209BB0D70090C39C /* PizzaRestaurant-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PizzaRestaurant-Prefix.pch"; sourceTree = "<group>"; };
+		BF45FF95209BB0D70090C39C /* PizzaRestaurant.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PizzaRestaurant.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +72,21 @@
 		BF45FF89209BB0B10090C39C /* Assignment8 */ = {
 			isa = PBXGroup;
 			children = (
+				BF45FF94209BB0D70090C39C /* PizzaRestaurant-Prefix.pch */,
+				BF45FF95209BB0D70090C39C /* PizzaRestaurant.xcodeproj */,
+				BF45FF91209BB0C80090C39C /* Kitchen.h */,
+				BF45FF92209BB0C80090C39C /* Kitchen.m */,
 				BF45FF8A209BB0B10090C39C /* main.m */,
 			);
 			path = Assignment8;
+			sourceTree = "<group>";
+		};
+		BF45FF96209BB0D70090C39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF45FF9A209BB0D70090C39C /* PizzaRestaurant */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +134,12 @@
 			mainGroup = BF45FF7E209BB0B10090C39C;
 			productRefGroup = BF45FF88209BB0B10090C39C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BF45FF96209BB0D70090C39C /* Products */;
+					ProjectRef = BF45FF95209BB0D70090C39C /* PizzaRestaurant.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BF45FF86209BB0B10090C39C /* Assignment8 */,
@@ -114,11 +147,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		BF45FF9A209BB0D70090C39C /* PizzaRestaurant */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = PizzaRestaurant;
+			remoteRef = BF45FF99209BB0D70090C39C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF45FF83209BB0B10090C39C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF45FF93209BB0C80090C39C /* Kitchen.m in Sources */,
 				BF45FF8B209BB0B10090C39C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
